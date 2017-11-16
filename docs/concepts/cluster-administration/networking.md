@@ -111,9 +111,13 @@ containers. Cilium is L7/HTTP aware and can enforce network policies on L3-L7
 using an identity based security model that is decoupled from network
 addressing.
 
+### Cisco ACI
+
+Cisco Application Centric Infrastructur offers an integrated overlay and underlay SDN solution that supports containers, virtual machines, and bare metal servers.  [Contiv-ACI](github.com/noironetworks/aci-containers) provides container networking integration for ACI.  An overview of the integration is provided [here](https://www.cisco.com/c/dam/en/us/solutions/collateral/data-center-virtualization/application-centric-infrastructure/solution-overview-c22-739493.pdf)  
+
 ### Contiv
 
-[Contiv](https://github.com/contiv/netplugin) provides configurable networking (native l3 using BGP, overlay using vxlan,  classic l2, or Cisco-SDN/ACI) for various use cases. [Contiv](http://contiv.io) is all open sourced.
+[Contiv](https://github.com/contiv/netplugin) provides configurable networking (native l3 using BGP, overlay using vxlan,  classic l2) for various use cases. [Contiv](http://contiv.io) is all open sourced.
 
 ### Contrail
 
